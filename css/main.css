@@ -69,9 +69,12 @@
 	position: fixed;
 	top: 500px;
 	left: 30px;
-	
+	z-index:1;
 	
 	}
+#icons > div{
+	display: inline;
+}
 	
 	
 	
