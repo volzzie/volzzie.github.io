@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Logo*/
+.logo{
+	position: fixed;
+	top: 200px;
+	left: 10px;
+}
+
+/*Puts images in a box*/
+#slideshow {
+	margin:50px auto;
+	position: fixed;
+	top: 50px;
+	bottom: 720px;
+	right: 75px;
+	width: 1056px;
+	height: 594px;
+	padding: 10px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 300px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 12px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+/*Quote*/
+.quote{
+	position: fixed;
+	padding-top: 720px;
+	right:420px;
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Adds the background to top bar*
+.navbar{
+	background-color: #333;
+	overflow: hidden;	
+}
+
+/*Styles links in the navbar*
+.navbar a{
+	font: buda;
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size: 17px;	
+}
+
+/*Change color of links on hover*
+.topnava:hover{
+	background-color: #ddd;
+	color: black;
+}
+/*Add color to active page*
+.topnav a.active {
+	background-color: #4CA4AF;
+}
+
+/*----------------- Dropdown Button*
+.dropbtn{
+	background-color: #333;
+	color: white;
+	padding: 16px;
+	font-size:16px;
+	border: none;
+}
+
+/*----------------The container <div>positions the content *
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+/*--------Dropdown Content (Hidden by default)*
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+	z-index: 1;	
+}
+
+/*-------------Links inside the dropdown *
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/*--------------Changes color of dropdown links on hover
+.dropdown a:hover {background-color: #ddd}
+
+
+/*--------Show the dropdown menu on hover 
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/*---------Change bg color of dropdown button when shown
+.dropdown:hover.dropbtn {
+	background-color: #3E6E8E;
+}
+
+
+*/
